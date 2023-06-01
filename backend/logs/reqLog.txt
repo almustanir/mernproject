@@ -1,0 +1,14 @@
+2023-06-01		12:19:39	23fd8991-c927-45c3-b844-7d6c35772df5	 GET	undefined	/ 
+2023-06-01		12:19:39	b938786e-00a7-4d10-8e96-7e614d5ebf90	 GET	undefined	/css/style.css 
+2023-06-01		12:44:28	ab88ac89-b24d-4ff4-9fce-ef366f0a54e6	 OPTIONS	https://www.google.com	/ 
+2023-06-01		12:44:28	6c3e7c14-fc92-461c-a9fc-64e5e6bdff25	 GET	https://www.google.com	/ 
+2023-06-01		12:51:36	a48a63e6-b9b5-486b-a61e-c1baa6aca433	 OPTIONS	https://www.google.com	/ 
+2023-06-01		12:51:36	def6cae1-fde6-4c48-9c71-e3fc48743671	 GET	https://www.google.com	/ 
+2023-06-01		12:55:27	9844b3dc-9cbf-4e60-94d4-13c12ae7bbee	 OPTIONS	https://www.google.com	/ 
+2023-06-01		12:55:28	b3f30c45-6f6e-4f68-a2f8-dbe1fdc93d4a	 GET	https://www.google.com	/ 
+2023-06-01		13:00:26	3ab061ad-c243-47e9-953b-539090a90232	 OPTIONS	https://www.google.com	/ 
+2023-06-01		13:00:26	b1a6f2d7-8c31-43e2-bbc7-5c634a6af1e6	 GET	https://www.google.com	/ 
+2023-06-01		13:01:08	48960cb1-7af3-4e8a-8601-65a2e84bd882	 OPTIONS	https://www.google.com	/ 
+2023-06-01		13:01:08	97516532-ca63-402d-8516-e25ed2b4f4ca	 GET	https://www.google.com	/ 
+2023-06-01		13:09:05	804224ed-2ed3-47bd-9f0c-3dd8c4344cbc	 OPTIONS	https://www.google.com	/ 
+2023-06-01		13:09:05	d6dc5d3e-b2bc-4336-88a4-95a257e2942d	 GET	https://www.google.com	/ 
