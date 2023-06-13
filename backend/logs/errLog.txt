@@ -2,3 +2,80 @@
 2023-06-01		13:00:26	72b17df5-8229-4a95-bad0-688f37e8c124	 Error: Not allowed by CORS	GET	/	https://www.google.com 
 2023-06-01		13:09:05	e6440472-94aa-421d-a4c2-8adba3b2bf31	 Error: Not allowed by CORS	OPTIONS	/	https://www.google.com 
 2023-06-01		13:09:05	0f202374-b7f0-4200-82d1-4612ddb98e38	 Error: Not allowed by CORS	GET	/	https://www.google.com 
+2023-06-02		11:11:17	892ebc1d-ad98-4099-9161-609a57b5f640	 SyntaxError: Expected ':' after property name in JSON at position 3	GET	/user	undefined 
+2023-06-02		11:12:20	5d997e9b-cb09-4556-b58a-fcfa9db73511	 SyntaxError: Expected ':' after property name in JSON at position 3	GET	/user	undefined 
+2023-06-02		13:22:27	c523b368-f53e-4ea0-b3ac-306d5afa1089	 Error: Cannot set headers after they are sent to the client	POST	/user	undefined 
+2023-06-02		13:22:54	76b601a0-18e4-4fce-a9df-922e97cc277e	 Error: Cannot set headers after they are sent to the client	POST	/user	undefined 
+2023-06-02		13:23:44	f0dd9436-e4d2-482e-8eca-92cb8e4ac11a	 Error: Cannot set headers after they are sent to the client	POST	/user	undefined 
+2023-06-02		13:23:46	351baea6-93a0-42bf-9e62-4c9de5aae607	 Error: Cannot set headers after they are sent to the client	POST	/user	undefined 
+2023-06-02		13:26:08	da25543d-777b-42cd-ad1e-dcbd70606c88	 Error: Cannot set headers after they are sent to the client	POST	/user	undefined 
+2023-06-02		13:27:40	7aa07c30-454f-437e-92a7-fc6754f2f645	 Error: Cannot set headers after they are sent to the client	POST	/user	undefined 
+2023-06-02		13:31:54	de08e530-1bc0-4c0b-a485-c939deeee800	 TypeError: Cannot read properties of undefined (reading 'get')	POST	/user	undefined 
+2023-06-02		13:32:43	75380593-1748-435d-a966-26d143ee4018	 TypeError: Cannot read properties of undefined (reading 'get')	POST	/user	undefined 
+2023-06-02		13:33:18	59557e11-caac-4c6c-b3e4-7c2941f15992	 Error: Cannot set headers after they are sent to the client	POST	/user	undefined 
+2023-06-02		13:36:30	8dda90b8-ea32-439a-a7e6-06586d4b5eaa	 Error: Cannot set headers after they are sent to the client	POST	/user	undefined 
+2023-06-05		09:17:39	db6343ff-8023-410f-b5a0-678d93e6b9ab	 SyntaxError: Unexpected token ''', ..." "roles":['Employee'"... is not valid JSON	POST	/employees	undefined 
+2023-06-05		09:18:00	ec7adc21-8620-4f01-9b04-fe4889c465a5	 SyntaxError: Unexpected token ''', ..." "roles":['Employee'"... is not valid JSON	POST	/employees	undefined 
+2023-06-05		09:18:10	d11c8de8-2fa5-4c18-8651-497df032baa7	 SyntaxError: Expected double-quoted property name in JSON at position 43	POST	/employees	undefined 
+2023-06-05		09:23:22	f680ecc3-9da6-4d82-a8e1-f37df2e152c7	 ReferenceError: userObject is not defined	POST	/user	undefined 
+2023-06-05		09:26:45	e5fefbb6-9676-4754-be69-220b8cd0d0c2	 Error: Cannot set headers after they are sent to the client	POST	/user	undefined 
+2023-06-05		09:29:57	c306bd6c-c450-42dc-b71c-afd16665aae9	 Error: Cannot set headers after they are sent to the client	POST	/user	undefined 
+2023-06-05		09:47:59	096379f7-ed76-4f23-9aca-3647d96df700	 CastError: Cast to ObjectId failed for value "647d9d05800ec93c8b24272fg" (type string) at path "user" for model "Note"	DELETE	/user	undefined 
+2023-06-05		09:48:18	f115e903-69b9-4a16-909b-750e3c64981f	 TypeError: Cannot read properties of null (reading 'length')	DELETE	/user	undefined 
+2023-06-05		09:49:11	fb706e16-c43e-4018-b7fc-c089eb561cff	 TypeError: Cannot read properties of null (reading 'length')	DELETE	/user	undefined 
+2023-06-05		09:49:24	8aa5f93a-0145-44f1-aab4-f51987fef1fb	 TypeError: Cannot read properties of null (reading 'length')	DELETE	/user	undefined 
+2023-06-05		09:50:27	938b747e-96e1-43eb-b02d-afcd7c6b4b26	 TypeError: Cannot read properties of null (reading 'length')	DELETE	/user	undefined 
+2023-06-05		10:18:00	68ef9121-0984-41db-8700-97d01fd37b02	 SyntaxError: Unexpected token 'E', ..."
+"roles":[Employee]}" is not valid JSON	POST	/note	undefined 
+2023-06-05		10:48:59	8f2837d3-e56a-4956-8a3a-f59bf5ffe39f	 ValidationError: Note validation failed: user: Cast to ObjectId failed for value "matex" (type string) at path "user" because of "BSONError"	POST	/note	undefined 
+2023-06-06		16:45:19	ab7defa5-7259-4fc2-af3a-0cb638c4946e	 MongoServerSelectionError: connection <monitor> to 44.212.242.151:27017 timed out	GET	/notes	http://localhost:5173 
+2023-06-06		16:45:46	cedb50af-c5c0-4686-8eb8-d899ae660972	 MongoServerSelectionError: connection timed out	GET	/notes	http://localhost:5173 
+2023-06-06		16:46:24	7480c9d9-8439-435d-8117-13110ca6bebd	 MongoServerSelectionError: connection timed out	GET	/notes	http://localhost:5173 
+2023-06-06		16:47:22	77b309ab-c416-4a9b-a2e3-be19c3da4073	 MongoServerSelectionError: connection timed out	GET	/notes	http://localhost:5173 
+2023-06-06		16:48:56	8589b846-13a3-488b-8b0e-f113d2a05989	 MongoServerSelectionError: connection timed out	GET	/notes	http://localhost:5173 
+2023-06-06		16:48:57	01ad25cc-bcf3-41ee-a788-66c2aca6d07d	 MongoServerSelectionError: connection timed out	GET	/notes	http://localhost:5173 
+2023-06-06		16:49:00	2c2a91ca-567f-404f-9d31-dc3d2e05f140	 MongoServerSelectionError: connection timed out	GET	/notes	http://localhost:5173 
+2023-06-06		21:34:33	2f3617e1-9f29-4c9b-98ef-6151e0fb6686	 MongoServerSelectionError: connection timed out	GET	/users	http://localhost:5173 
+2023-06-06		21:35:25	85af11a4-b497-4c98-be9c-ab65d6e9e632	 MongoServerSelectionError: connection <monitor> to 44.212.242.151:27017 timed out	GET	/users	http://localhost:5173 
+2023-06-08		09:50:15	435a1e38-8dc2-49c7-9143-7380d621ca17	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:5173 
+2023-06-08		09:50:21	7e3573ef-e2b6-4101-87d7-14ef79101827	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:5173 
+2023-06-08		09:50:53	603672e6-e61a-45d3-8fb0-44cc2156b0a0	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:5173 
+2023-06-08		09:50:57	2dd82662-3b53-45bc-8f85-3e8dafdfdd5c	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:5173 
+2023-06-08		10:03:23	a447dc9e-a7d5-4576-b061-c8fa7cf1730d	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined 
+2023-06-08		10:04:36	131054c9-0aae-4b89-adb4-98d56a3a6488	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined 
+2023-06-08		10:05:57	17e13276-939f-429e-9582-506424eb5b28	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined 
+2023-06-08		10:06:01	799be8d5-d214-4ce7-9969-1eda25de4654	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined 
+2023-06-08		10:06:03	96fd206d-c52d-487d-a87a-4e688309155a	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined 
+2023-06-08		10:06:46	8a1e7f38-7539-4378-91c8-b799e07e2d87	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined 
+2023-06-08		10:06:49	8c8d4480-14ad-4f15-a7c9-a90efdc85654	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined 
+2023-06-08		10:08:20	b0528fca-34af-47e0-9ece-ca2aa89e235a	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined 
+2023-06-08		10:51:33	55cf30c8-2e9e-4e5b-bf19-a02760f5f5ec	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-00.m6ilmzg.mongodb.net	GET	/users	http://localhost:5173 
+2023-06-08		10:53:13	e42f4565-de9f-4111-9933-79e05d29f84f	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-00.m6ilmzg.mongodb.net	GET	/users	http://localhost:5173 
+2023-06-08		11:15:08	cb9bb066-41fd-4062-bbec-d97e6f2ab3ee	 MongoServerSelectionError: connection <monitor> to 44.212.242.151:27017 timed out	GET	/users	http://localhost:5173 
+2023-06-08		11:15:45	95a57717-157d-4293-a799-8d105e19a496	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/users	http://localhost:5173 
+2023-06-08		11:16:21	28452b81-66d9-4ec3-b807-6f39ef8e3451	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/users	http://localhost:5173 
+2023-06-08		11:16:26	8f23a3bf-7f86-4d4b-89ea-5d535ce9ce60	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/notes	http://localhost:5173 
+2023-06-08		11:17:10	dfe7ee5b-d2fe-41cc-adb5-30692949953d	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/notes	http://localhost:5173 
+2023-06-08		11:17:32	aeb05d15-1f3b-430d-923d-18bd954c045a	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/notes	http://localhost:5173 
+2023-06-08		11:19:20	8b422e84-55a5-4514-b544-36cd39f74fd7	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/notes	http://localhost:5173 
+2023-06-08		11:19:21	7e3c0a37-a96d-43a6-9712-8aa0e2dfdb85	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/users	http://localhost:5173 
+2023-06-08		11:19:35	b6213bac-09b0-40eb-a447-43a2590d1dc5	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/notes	http://localhost:5173 
+2023-06-08		11:19:35	1f357697-382b-4f73-915a-cbd451fbf846	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/users	http://localhost:5173 
+2023-06-08		11:19:56	ba72fd28-53f3-4e67-8f1e-8de552bf7eb8	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/notes	http://localhost:5173 
+2023-06-08		11:19:56	0e96e04b-f557-412b-a288-1c03e9657076	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/users	http://localhost:5173 
+2023-06-08		11:20:31	e53b8080-5d2f-4aa1-81a5-eb5c71fd39f8	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/notes	http://localhost:5173 
+2023-06-08		11:20:31	55ed61de-c890-4e3e-8dbe-79a966050f74	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/users	http://localhost:5173 
+2023-06-08		11:22:29	3e492fba-c617-4682-b168-aafdcdf6bef7	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/notes	http://localhost:5173 
+2023-06-08		11:22:29	a74280bc-f5fe-4bda-911e-260e1643b38e	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/users	http://localhost:5173 
+2023-06-08		11:23:15	b7f9c5bf-e091-43ce-831d-77bcf9cfab6d	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/notes	http://localhost:5173 
+2023-06-08		11:23:43	6c54642f-24d7-42a1-a475-1e7c52a31320	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-02.m6ilmzg.mongodb.net	GET	/users	http://localhost:5173 
+2023-06-08		12:15:42	4b7720f4-10c9-479b-ab43-ada3638daea5	 MongoServerSelectionError: connection timed out	GET	/notes	http://localhost:5173 
+2023-06-08		12:15:42	2f882f05-478b-4cde-99c3-082cb5264a2c	 MongoServerSelectionError: connection timed out	GET	/users	http://localhost:5173 
+2023-06-08		12:16:40	13889d91-92aa-4411-903a-9c207e16fd0c	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-01.m6ilmzg.mongodb.net	GET	/notes	http://localhost:5173 
+2023-06-08		12:16:40	e9e811ae-a22e-47c2-b9ae-edb51d6dc05f	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-01.m6ilmzg.mongodb.net	GET	/users	http://localhost:5173 
+2023-06-08		12:17:44	7bd129c9-e45f-49a9-af5e-89cc4efe71a2	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-01.m6ilmzg.mongodb.net	GET	/notes	http://localhost:5173 
+2023-06-08		12:17:44	9783968f-07d1-455b-9b6b-3437921f96a6	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-01.m6ilmzg.mongodb.net	GET	/users	http://localhost:5173 
+2023-06-08		15:48:01	fc975024-b849-4360-a12b-29cd645c1f6b	 SyntaxError: Expected ',' or '}' after property value in JSON at position 40	POST	/users	undefined 
+2023-06-08		16:17:29	31cc64d6-c96b-4948-9da2-c36d8a46d72e	 Error: Cannot set headers after they are sent to the client	POST	/users	undefined 
+2023-06-08		16:30:07	df8fb336-60c7-414b-b02e-1bb0f2621f7c	 Error: Cannot set headers after they are sent to the client	POST	/users	undefined 
+2023-06-08		16:31:31	83f8bfa9-f872-4259-912f-ec594ffad082	 Error: Cannot set headers after they are sent to the client	POST	/users	undefined 

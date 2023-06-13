@@ -1,4 +1,18 @@
-2023-06-01		15:05:27	7e209b29-bc6a-41e1-9212-09975cf54c1f	 undefined: undefined	undefined/tundefined 
-2023-06-01		15:09:14	dae90505-33fa-444a-b860-cb970d1e22e0	 undefined: undefined	undefined/tundefined 
-2023-06-01		15:11:03	39cc201b-ba40-4467-9215-c39b281727bf	 undefined: undefined	undefined/tundefined 
-2023-06-01		15:31:05	b7e3a9fd-75ff-4e3d-86fb-977f85ce601b	 undefined: ETIMEOUT	querySrv/t_mongodb._tcp.cluster0.m6ilmzg.mongodb.net 
+2023-06-01		15:21:59	d89acccc-c4df-4e7f-810b-0988466d812b	 undefined: undefined	undefined	undefined 
+2023-06-06		15:03:14	6522bdf5-26b9-4f4f-ae9d-cc9721238c66	 undefined: undefined	undefined	undefined 
+2023-06-06		15:21:30	a18a514c-a084-43ea-b290-00f03c407aea	 undefined: ETIMEOUT	querySrv	_mongodb._tcp.cluster0.m6ilmzg.mongodb.net 
+2023-06-06		15:24:31	1562d709-aab4-41b3-9b25-bce152bcaaca	 undefined: ETIMEOUT	querySrv	_mongodb._tcp.cluster0.m6ilmzg.mongodb.net 
+2023-06-06		17:15:43	aa84104c-0bc9-4063-8c34-fcf59374472f	 undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.m6ilmzg.mongodb.net 
+2023-06-06		17:18:32	5bd2c04e-6b85-4143-b79d-45f0f9df6529	 undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.m6ilmzg.mongodb.net 
+2023-06-07		09:18:53	9ad5554d-0e8d-4c48-a30a-bd39167a2d11	 undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.m6ilmzg.mongodb.net 
+2023-06-07		09:21:49	9051d3f2-dd22-44f2-952c-aab9ab4f9942	 undefined: undefined	undefined	undefined 
+2023-06-08		09:51:51	d68d8ac4-f1d1-46a0-8c01-a8c83f8e8079	 undefined: undefined	undefined	undefined 
+2023-06-08		09:53:09	c8f69959-c496-432c-8317-0bf0dc3906fe	 undefined: undefined	undefined	undefined 
+2023-06-08		10:53:28	df1b9937-23a2-4649-9e89-3f60cc3bf03b	 undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.m6ilmzg.mongodb.net 
+2023-06-08		10:55:37	0610379a-0321-47ae-ab79-816d7aea5096	 undefined: undefined	undefined	undefined 
+2023-06-08		11:05:17	a87fff10-d650-49e5-bd6a-e02652b3a50d	 undefined: undefined	undefined	undefined 
+2023-06-08		11:24:31	36d4f4fb-08e7-41bd-8526-328865a15ecf	 undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.m6ilmzg.mongodb.net 
+2023-06-08		12:18:54	5202ce35-3869-4590-a506-11a919e74203	 undefined: ETIMEOUT	querySrv	_mongodb._tcp.cluster0.m6ilmzg.mongodb.net 
+2023-06-08		12:23:27	78e880d4-54aa-4a24-b097-7ffbb1ac92d2	 undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.m6ilmzg.mongodb.net 
+2023-06-08		12:54:32	2da0608a-4f57-4be2-9ea2-41f7dce92109	 undefined: EREFUSED	querySrv	_mongodb._tcp.cluster0.m6ilmzg.mongodb.net 
+2023-06-08		14:09:11	fd5ee095-160b-458e-a0b0-0ffb15af1f43	 undefined: ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.m6ilmzg.mongodb.net 
