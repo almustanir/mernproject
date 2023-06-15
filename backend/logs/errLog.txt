@@ -79,3 +79,10 @@
 2023-06-08		16:17:29	31cc64d6-c96b-4948-9da2-c36d8a46d72e	 Error: Cannot set headers after they are sent to the client	POST	/users	undefined 
 2023-06-08		16:30:07	df8fb336-60c7-414b-b02e-1bb0f2621f7c	 Error: Cannot set headers after they are sent to the client	POST	/users	undefined 
 2023-06-08		16:31:31	83f8bfa9-f872-4259-912f-ec594ffad082	 Error: Cannot set headers after they are sent to the client	POST	/users	undefined 
+2023-06-13		14:12:25	2019a5a8-1f2e-48e1-b197-b29b72006081	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-8hfjtkj-shard-00-01.m6ilmzg.mongodb.net	POST	/auth	http://localhost:5173 
+2023-06-14		09:39:23	d9eae4a5-7ebd-4082-b194-af9a0ef76f66	 MongoServerSelectionError: connection <monitor> to 44.212.242.151:27017 timed out	GET	/notes	http://localhost:5173 
+2023-06-14		10:56:11	d0e28c64-e7ed-4928-9f73-c2775d848071	 MongoServerSelectionError: connection <monitor> to 35.170.250.253:27017 timed out	POST	/auth	http://localhost:5173 
+2023-06-14		10:56:32	eecd27a2-86cd-4e41-924f-2b590ffc3511	 MongoServerSelectionError: connection timed out	POST	/auth	http://localhost:5173 
+2023-06-14		14:54:11	17a24b59-5f20-45c5-bbc5-cfb19f788112	 MongoServerSelectionError: connection timed out	GET	/notes	http://localhost:5173 
+2023-06-14		14:54:11	7eaa0b51-a83e-400a-af7c-420cf94db0cf	 MongoServerSelectionError: connection timed out	GET	/users	http://localhost:5173 
+2023-06-14		14:54:28	c24fb68f-d47e-4e8a-b0a1-e1ab4cc0cc2d	 MongoServerSelectionError: connection timed out	GET	/notes	http://localhost:5173 

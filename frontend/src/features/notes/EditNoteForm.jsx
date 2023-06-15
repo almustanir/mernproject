@@ -3,8 +3,11 @@ import { useUpdateNoteMutation, useDeleteNoteMutation } from "./notesApiSlice";
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSave, faTrashCan } from "@fortawesome/free-solid-svg-icons";
+import useAuth from "../../hooks/useAuth";
 
-const EditNoteForm = ({ note, users }) => {
+const EditNoteForm = ({ users, note }) => {
+  const { isManager, isAdmin } = useAuth();
+
   const [updateNote, { isLoading, isSuccess, isError, error }] =
     useUpdateNoteMutation();
 
@@ -29,8 +32,7 @@ const EditNoteForm = ({ note, users }) => {
     }
   }, [isSuccess, isDelSuccess, navigate]);
 
-  //event handlers
-
+  // event handlers
   const onTitleChanged = (e) => setTitle(e.target.value);
   const onTextChanged = (e) => setText(e.target.value);
   const onCompletedChanged = (e) => setCompleted((prev) => !prev);
@@ -68,7 +70,6 @@ const EditNoteForm = ({ note, users }) => {
   const options = users.map((user) => {
     return (
       <option key={user.id} value={user.id}>
-        {" "}
         {user.username}
       </option>
     );
@@ -79,6 +80,19 @@ const EditNoteForm = ({ note, users }) => {
   const validTextClass = !text ? "form__input--incomplete" : "";
 
   const errContent = (error?.data?.message || delerror?.data?.message) ?? "";
+
+  let deleteButton = null;
+  if (isManager || isAdmin) {
+    deleteButton = (
+      <button
+        className="icon-button"
+        title="Delete"
+        onClick={onDeleteNoteClicked}
+      >
+        <FontAwesomeIcon icon={faTrashCan} />
+      </button>
+    );
+  }
 
   return (
     <>
@@ -96,13 +110,14 @@ const EditNoteForm = ({ note, users }) => {
             >
               <FontAwesomeIcon icon={faSave} />
             </button>
-            <button
+            {/* <button
               className="icon-button"
               title="Delete"
               onClick={onDeleteNoteClicked}
             >
               <FontAwesomeIcon icon={faTrashCan} />
-            </button>
+            </button> */}
+            {deleteButton}
           </div>
         </div>
         <label className="form__label" htmlFor="note-title">
@@ -122,7 +137,7 @@ const EditNoteForm = ({ note, users }) => {
           Text:
         </label>
         <textarea
-          className={`form__input form__input--text ${validTextClass}`}
+          className={`form_input form_input--text ${validTextClass}`}
           id="note-text"
           name="text"
           value={text}
@@ -131,7 +146,7 @@ const EditNoteForm = ({ note, users }) => {
         <div className="form__row">
           <div className="form__divider">
             <label
-              className="form__label form__checkbox-container"
+              className="form_label form_checkbox-container"
               htmlFor="note-completed"
             >
               WORK COMPLETE:
@@ -146,7 +161,7 @@ const EditNoteForm = ({ note, users }) => {
             </label>
 
             <label
-              className="form__label form__checkbox-container"
+              className="form_label form_checkbox-container"
               htmlFor="note-username"
             >
               ASSIGNED TO:
